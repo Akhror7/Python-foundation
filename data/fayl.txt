@@ -1,0 +1,17 @@
+Demak, bugun men pythonda fayllar bilan ishlash haqida dastlabki tushunchalarni oldim.
+Fayllar bilan ishlash uchun birinchi uni ochib olish va fayl ustida qanaqa amal bajarmoqchi ekanligizni belgilab olish lozim.
+Fayllarni ochishni ikki xil usuli mavjud: file open() va with open() as nom.
+Yuqoridagi ikki yo'ldan biridan ya'ni open() metodidan foydalanish tavsiya qilinmaydi, chunki bu metoddan foydalansak faylni yana o'zimiz qo'lda yopishimizga to'g'ri keladi file.close.
+with operatori bilan esa biz fayl bilan blokni ichida ishlashimiz mumkin bo'ladi.
+Amallar:
+'r' - o'qish uchun faylni ochadi
+'w' - yozish uchun fayl tayyorlaydi, fayl bo'lmasa yangi ochadi agar bo'lsa ichidagi ma'lumotlarni o'chirib yuboradi
+'a' - faylga ma'lumot qo'shish uchun ochadi agar mavjud bo'lmasa yangi ochadi
+'r+' - faylni o'qish va yozish uchun ochadi
+'w+' - faylni o'qish va yozish uchun ochadi , ichidagi ma'lumotlar o'chib ketadi
+'a+' - faylga ma'lumot qo'shish va o'qish uchun ochadi
+Xo'o'o'sh, endi faylga turli xil obyektlar qo'shish ham mumkin.
+Buning uchun pickle module bor.
+Kamchiliklar pickle module dan foydalangandan so'ng boshqa hech narsa u faylni o'qiy olmaydi.
+pickle.dumb()
+wb,rb  
